@@ -41,13 +41,14 @@ export default function Home() {
       <div className=" flex flex-col bg-custom-white py-20 text-custom-black md:px-52">
         <div className="flex flex-col-reverse items-center px-4 md:flex-row md:space-x-20 md:px-0">
           <div className="space-y-4 py-4 md:w-1/2 md:space-y-8">
+          <div className="flex flex-col space-y-4 items-start justify-center">
+
             <div className="bigSholders text-5xl font-extrabold md:text-6xl">
               <h1 className="hidden md:block">YOUR DAY AT</h1>
               <h1 className="hidden md:block">THE GALLERY</h1>
               <h1 className="md:hidden">YOUR DAY</h1>
               <h1 className="md:hidden">AT THE GALLERY</h1>
             </div>
-            <div className="flex items-center justify-center">
               <p className="outfit text-md w-80 text-left font-extralight md:text-[22px]">
                 Wander through our distinct collections and find new insights
                 about our artists. Dive into the details of their creative
