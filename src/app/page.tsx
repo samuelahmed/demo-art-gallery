@@ -16,7 +16,7 @@ export default function Home() {
       {/* Section 1 */}
       <div className="flex flex-col md:flex-row">
         <div className="mt-60 w-full bg-custom-white md:mt-0 md:w-1/3 md:bg-custom-black">
-          <div className="bigSholders w-full px-4 py-8 text-5xl font-extrabold text-custom-black md:ml-56 md:mt-48 md:px-0 md:py-0 md:text-[96px] md:text-custom-white md:mix-blend-difference">
+          <div className="bigShoulders w-full px-4 py-8 text-5xl font-extrabold text-custom-black md:ml-56 md:mt-48 md:px-0 md:py-0 md:text-[96px] md:text-custom-white md:mix-blend-difference">
             <h1>MODERN</h1>
             <h1>ART GALLERY</h1>
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
         <div className="flex flex-col-reverse items-center px-4 md:flex-row md:space-x-20 md:px-0">
           <div className="space-y-4 py-4 md:w-1/2 md:space-y-8">
           <div className="flex flex-col space-y-4 items-start justify-center">
-            <div className="bigSholders text-5xl font-extrabold md:text-6xl">
+            <div className="bigShoulders text-5xl font-extrabold md:text-6xl">
               <h1 className="hidden md:block">YOUR DAY AT</h1>
               <h1 className="hidden md:block">THE GALLERY</h1>
               <h1 className="md:hidden">YOUR DAY</h1>
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
             <div className="h-full bg-custom-black">
               <div className="px-8 py-8 text-custom-white md:px-8 md:pl-16">
-                <div className="bigSholders text-5xl font-extrabold md:text-6xl">
+                <div className="bigShoulders text-5xl font-extrabold md:text-6xl">
                   <h1>COME & BE</h1>
                   <h1>INSPIRED</h1>
                 </div>
@@ -89,7 +89,7 @@ export default function Home() {
 
       {/* Section 3 */}
       <div className="flex flex-col justify-start space-y-8 bg-custom-black px-8 py-16 text-custom-white md:flex-row md:justify-around">
-        <div className="bigSholders flex flex-col items-start justify-center text-4xl font-extrabold">
+        <div className="bigShoulders flex flex-col items-start justify-center text-4xl font-extrabold">
           <h1>MODERN</h1>
           <h1>ART GALLERY</h1>
         </div>

@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
  
-.bigSholders {
-  font-family: var(--font-big-sholders);
+.bigShoulders {
+  font-family: var(--font-big-shoulders);
 }
 
 .outfit {

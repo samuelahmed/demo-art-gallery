@@ -5,7 +5,7 @@ import "./globals.css";
 
 const big_shoulders_display = Big_Shoulders_Display({
   subsets: ["latin"],
-  variable: "--font-big-sholders",
+  variable: "--font-big-shoulders",
 });
 const outfit = Outfit({
   subsets: ["latin"],
