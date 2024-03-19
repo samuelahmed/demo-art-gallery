@@ -41,7 +41,7 @@ export default function Home() {
       <div className=" flex flex-col bg-custom-white py-20 text-custom-black md:px-52">
         <div className="flex flex-col-reverse items-center px-4 md:flex-row md:space-x-20 md:px-0">
           <div className="space-y-4 py-4 md:w-1/2 md:space-y-8">
-            <div className="bigSholders text-4xl font-extrabold md:text-6xl">
+            <div className="bigSholders text-5xl font-extrabold md:text-6xl">
               <h1 className="hidden md:block">YOUR DAY AT</h1>
               <h1 className="hidden md:block">THE GALLERY</h1>
               <h1 className="md:hidden">YOUR DAY</h1>
@@ -71,11 +71,11 @@ export default function Home() {
             </div>
             <div className="h-full bg-black">
               <div className="px-8 py-8 text-white md:px-8 md:pl-16">
-                <div className="bigSholders text-4xl font-extrabold md:text-6xl">
+                <div className="bigSholders text-5xl font-extrabold md:text-6xl">
                   <h1>COME & BE</h1>
                   <h1>INSPIRED</h1>
                 </div>
-                <p className="outfit text:md text-left font-extralight md:pt-10 md:text-[22px]">
+                <p className="outfit text:md pt-4 text-left font-extralight md:text-[22px]">
                   We’re excited to welcome you to our gallery and see how our
                   collections influence you.
                 </p>
