@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Big_Shoulders_Display } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const big_shoulders_display = Big_Shoulders_Display({ 
+  subsets: ["latin"],
+  variable: "--font-big-sholders"
+ });
+const outfit = Outfit({ 
+  subsets: ["latin"],
+  variable: "--font-outift",
+
+});
 
 export const metadata: Metadata = {
   title: "Demo Art Gallery",
@@ -16,7 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${big_shoulders_display.variable} ${outfit.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
