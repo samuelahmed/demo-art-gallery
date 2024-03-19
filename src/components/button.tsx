@@ -12,7 +12,7 @@ export default function Button({ children, variant }: ButtonProps) {
   const flexOrder = variant === "button1" ? "flex-row-reverse" : "flex-row";
 
   return (
-    //make the button bigger and have chevron ontop of it to avoid the state?
+    // Make the button bigger and have icon ontop of it to avoid useState?
     <button
       className={`bigSholders flex bg-black text-white hover:bg-custom-orange ${flexOrder} h-[72px] w-[260px] items-center`}
       onMouseEnter={() => setIsHovered(true)}
