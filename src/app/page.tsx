@@ -9,8 +9,10 @@ import Button from "@/components/button";
 import { Twitter, Facebook, Instagram } from "lucide-react";
 
 export default function Home() {
+
   return (
     <main className="flex h-screen w-full flex-col">
+
       {/* Section 1 */}
       <div className="flex flex-col md:flex-row">
         <div className="mt-60 w-full bg-custom-white md:mt-0 md:w-1/3 md:bg-custom-black">
@@ -42,7 +44,6 @@ export default function Home() {
         <div className="flex flex-col-reverse items-center px-4 md:flex-row md:space-x-20 md:px-0">
           <div className="space-y-4 py-4 md:w-1/2 md:space-y-8">
           <div className="flex flex-col space-y-4 items-start justify-center">
-
             <div className="bigSholders text-5xl font-extrabold md:text-6xl">
               <h1 className="hidden md:block">YOUR DAY AT</h1>
               <h1 className="hidden md:block">THE GALLERY</h1>

@@ -23,7 +23,9 @@ export default function Button({ children, variant }: ButtonProps) {
           isHovered ? "bg-black" : "bg-custom-orange"
         }`}
       />
-      <p className="bigSholders font-bold tracking-widest w-full md:text-[20px]"> {children} </p>
+      <p className="bigSholders w-full font-bold tracking-widest md:text-[20px]">
+        {children}
+      </p>
     </button>
   );
 }
