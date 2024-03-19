@@ -20,7 +20,7 @@ export default function Button({ children, variant }: ButtonProps) {
     >
       <Chevron
         className={`h-full w-[56px] ${
-          isHovered ? "bg-black" : "bg-custom-orange"
+          isHovered ? "bg-custom-black" : "bg-custom-orange"
         }`}
       />
       <p className="bigSholders w-full font-bold tracking-widest md:text-[20px]">

@@ -71,8 +71,8 @@ export default function Home() {
             <div className="w-full ">
               <Image src={grid3Img} width={1080} height={1600} alt="alt" />
             </div>
-            <div className="h-full bg-black">
-              <div className="px-8 py-8 text-white md:px-8 md:pl-16">
+            <div className="h-full bg-custom-black">
+              <div className="px-8 py-8 text-custom-white md:px-8 md:pl-16">
                 <div className="bigSholders text-5xl font-extrabold md:text-6xl">
                   <h1>COME & BE</h1>
                   <h1>INSPIRED</h1>
