@@ -14,7 +14,7 @@ export default function Button({ children, variant }: ButtonProps) {
   return (
     // Make the button bigger and have icon ontop of it to avoid useState?
     <button
-      className={`bigSholders flex bg-black text-white hover:bg-custom-orange ${flexOrder} h-[72px] w-[260px] items-center`}
+      className={`bigSholders flex bg-custom-black text-custom-white hover:bg-custom-orange ${flexOrder} h-[72px] w-[260px] items-center`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -23,7 +23,7 @@ export default function Button({ children, variant }: ButtonProps) {
           isHovered ? "bg-black" : "bg-custom-orange"
         }`}
       />
-      <p className="w-full text-2xl"> {children} </p>
+      <p className="bigSholders font-bold tracking-widest w-full md:text-[20px]"> {children} </p>
     </button>
   );
 }
